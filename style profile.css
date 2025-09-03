@@ -12,6 +12,7 @@
             line-height: 1.6;
             font-variant: small-caps;
             font-style: italic;
+            text-align: left;
         }
         .split {
             height: 90%;
@@ -26,7 +27,6 @@
         }
         .left {
             left: 0;
-
             color: white;
             
         }
