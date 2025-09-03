@@ -53,6 +53,19 @@
             display: inline;
             margin-right: 10px;
             border-radius:15%;}
+
+        header {
+            background: #5c5c5c;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 16px;
+        }
         a {
             text-decoration: none;
             padding: 8px;
