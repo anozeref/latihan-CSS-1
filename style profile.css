@@ -11,11 +11,11 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-radius:5%
     }
     header h1 {
       margin: 0;
       font-size: 16px;
+     
     }
     a {
       text-decoration: none;
@@ -37,8 +37,10 @@
       background: #eee;
     }
     .main img {
+      width: 200px;
+      height: 200px;
       background: #ccc;
-      margin-right: 30px;
+      margin-right: 50px;
     }
     .intro {
       max-width: 600px;
@@ -54,12 +56,14 @@
     .contact h3 {
       margin-top: 0;
     }
+    .contact p {
+     line-height: 1;
+    }
 
     footer {
       background: #333;
       color: white;
       text-align: center;
-      padding: 15px;
+      padding: 20px;
       font-size: 12px;
-      border-radius: 5%;
     }
