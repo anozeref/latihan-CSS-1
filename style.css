@@ -1,0 +1,39 @@
+        body {
+            background-color: rgb(38, 188, 238);
+        }
+        h1 {
+            color: hwb(0 63% 0%);
+            text-align: center;
+        }  
+        p {
+            font-family: Arial;
+            font-size: 20px;
+            line-height: 1.6;
+        }
+        .split {
+            height: 100%;
+            width: 50%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        .left {
+            left: 0;
+            background-color: #003dad;
+            color: white;
+        }
+
+        .right {
+            right: 0;
+            background-color: rgb(39, 25, 122);
+            color: white;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: justify;
+        }
