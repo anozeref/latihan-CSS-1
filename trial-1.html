@@ -7,22 +7,58 @@
             background-color: rgb(38, 188, 238);
         }
         h1 {
-            color: hwb(0 100% 0%);
+            color: hwb(0 63% 0%);
             text-align: center;
         }  
         p {
             font-family: Arial;
             font-size: 20px;
         }
+        .split {
+            height: 100%;
+            width: 50%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        .left {
+            left: 0;
+            background-color: #003dad;
+            color: white;
+        }
+
+        .right {
+            right: 0;
+            background-color: rgb(39, 25, 122);
+            color: white;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: justify;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Hello World</h1>
-    
-<p>Cascading Style Sheets atau CSS adalah bahasa pemrograman berbasis aturan yang dikembangkan
+    <div class="split left">
+  <div class="centered">
+    <h1>Dasar</h1>
+    <p>Cascading Style Sheets atau CSS adalah bahasa pemrograman berbasis aturan yang dikembangkan
 oleh World Wide Web Consortium (W3C) pada tahun 1996. CSS dikembangkan karena HTML yang berfungsi u
-ntuk memformat halaman web tidak bisa menambahkan gaya atau tata letak tingkat lanjut.
-Misalnya, pada HTML versi 3.2, sudah diperkenalkan tag <font> agar gaya teks bisa diubah. Namun, web designer amatir menyalahgunakannya dan tidak ada opsi fallback seperti yang sekarang tersedia di CSS. Jadi, pilihan terbaiknya adalah tetap memisahkan pemformatan (HTML) dan penataan gaya (CSS) </p>
-    
+ntuk memformat halaman web tidak bisa menambahkan gaya atau tata letak tingkat lanjut.</p>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <h1>Lanjutan</h1>
+    <p>Misalnya, pada HTML versi 3.2, sudah diperkenalkan tag <font> agar gaya teks bisa diubah. Namun, web designer amatir menyalahgunakannya dan tidak ada opsi fallback seperti yang sekarang tersedia di CSS. Jadi, pilihan terbaiknya adalah tetap memisahkan pemformatan (HTML) dan penataan gaya (CSS) </p>
+  </div>
+</div>   
 </body>
 </html>
