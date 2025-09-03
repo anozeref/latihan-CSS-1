@@ -1,70 +1,65 @@
-        body {
-            background-color: rgb(27, 27, 27);
-        }
-        h1 {
-            color: hwb(0 85% 15%);
-            text-align: center;
-            border-bottom: 1px solid #eeeeee;
-        }  
-        p {
-            font-family: Arial;
-            font-size: 20px;
-            line-height: 1.6;
-            font-variant: small-caps;
-            font-style: italic;
-            text-align: left;
-        }
-        .split {
-            height: 90%;
-            width: 50%;
-            position: fixed;
-            z-index: 1;
-            bottom: 0;
-            overflow-x: hidden;
-            padding-top: 20px;
-            margin: 15px;
-            border-radius: 1%;
-        }
-        .left {
-            left: 0;
-            color: white;
-            
-        }
+    body {
+      margin: 0;
+      font-family: Calibri, sans-serif;
+      background: rgb(94, 94, 94);
+      color: #222;
+    }
+    header {
+      background: #5c5c5c;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius:5%
+    }
+    header h1 {
+      margin: 0;
+      font-size: 16px;
+    }
+    a {
+      text-decoration: none;
+      padding: 8px;
+      background-color: #dddddd;
+      color: black;
+      font-family: Calibri;
+    }
+    a:hover {
+      background-color: #555;
+      color: white;
+      font-style: bold;
+    }
 
-        .right {
-            right: 0;
-            background-color: rgb(39, 25, 122);
-            color: white;
-        }
-        .centered {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: justify;
-        }
-        ul {
-            list-style-type: none;
-            margin: 5px;
-            padding: 0px;
-            overflow: hidden;
 
-            
-        }
-        li {
-            display: inline;
-            margin-right: 10px;
-            border-radius:15%;
-        }
-        a {
-            text-decoration: none;
-            padding: 8px;
-            background-color: #dddddd;
-            color: black;
-            font-family: Calibri;
-        }
-        a:hover {
-            background-color: #555;
-            color: white;
-            font-style:bold;
-        }
+    .main {
+      display: flex;
+      padding: 40px 30px;
+      background: #eee;
+    }
+    .main img {
+      background: #ccc;
+      margin-right: 30px;
+    }
+    .intro {
+      max-width: 600px;
+    }
+    .intro h2 {
+      margin-top: 0;
+    }
+
+    .contact {
+      padding: 30px;
+      background: white;
+    }
+    .contact h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 12px;
+      border-radius: 5%;
+    }
