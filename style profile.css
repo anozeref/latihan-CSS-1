@@ -61,8 +61,10 @@
             padding: 8px;
             background-color: #dddddd;
             color: black;
+            font-family: Calibri;
         }
         a:hover {
             background-color: #555;
             color: white;
+            font-style:bold;
         }
