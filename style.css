@@ -9,6 +9,8 @@
             font-family: Arial;
             font-size: 20px;
             line-height: 1.6;
+            font-variant: small-caps;
+            font-style: italic;
         }
         .split {
             height: 100%;
